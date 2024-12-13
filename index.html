@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Namoro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header style="min-height: 100px; padding-top: 20px;">
+          <h1 style="font-size: 58px; text-align: center; animation: piscar 2s infinite;">Um Comunicado Especial!! 💌</h1>
+        </header>
+        <main>
+            <section class="intro">
+                <p style="font-size: 24px; text-align: center;">Minha neném linda!😍🥰😘,</p>
+                <p style="font-size: 16px; text-align: center;">Desde que nos conhecemos, minha vida mudou de uma maneira indescritível. Cada momento ao seu lado é um presente 🎁 que prezo profundamente. Sua presença trouxe alegria, luz e um calor especial que eu nunca havia experimentado antes. 🌟✨</p>
+                <p style="font-size: 16px; text-align: center;">Quero te agradecer por cada sorriso 😃, cada conversa 🗣️ e cada memória que construímos juntos. Você faz meus dias mais brilhantes ☀️ e meu coração mais leve 💖. Sei que encontrá-la foi uma das melhores coisas que já me aconteceu e quero que saiba o quanto sou grato por ter você na minha vida. 🌹❤️</p>
+                <p style="font-size: 16px; text-align: center;">Portanto, com todo o carinho e admiração que sinto por você, gostaria de te perguntar algo especial 💫:</p>
+                <p class="hover-text" onmouseover="showPhoto()" style="font-size: 22px; text-align: center;">Você aceita namorar comigo oficialmente? 💍</p>
+                <p style="font-size: 16px; text-align: center;">(Aperte no texto em laranja acima 👆 primeiro)</p>
+                <img id="proposal-photo" src="namora comigo.jpg" alt="De joelhos com alianças" style="display:none;">
+            </section>
+            <section class="details">
+                <button id="sim" onclick="showMessage('Sim')">Sim 😊</button>
+                <button id="nao" onclick="showMessage('Não')">Não 😢</button>
+                <p id="message"></p>
+            </section>
+        </main>
+        <footer>
+            <p style="font-size: 20px; text-align: center;">Com todo amor do seu gatinho sexy, isack 😻🙈❤️</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
