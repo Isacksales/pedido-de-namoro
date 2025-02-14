@@ -9,7 +9,7 @@ function showMessage(resposta) {
   let message;
   switch (resposta) {
     case 'Sim':
-      message = 'Estou muito feliz por ter aceitado, saiba que lutarei por nós sempre, vou fazer valer a pena esse sim, te amo muito.';
+      message = 'Estou muito feliz por ter aceitado, saiba que lutarei por nós sempre, vou fazer valer a pena esse sim, te amo muito. (Aguarde 10 segundos pra uma surpresa.)';
       setTimeout(() => {
         window.location.href = "https://isacksales.github.io/ela-disse-sim/";
       }, 10000); // 10000 milissegundos = 10 segundos
